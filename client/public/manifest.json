@@ -1,0 +1,33 @@
+{
+    "name": "Youtube Donwloader ",
+    "short_name": "YT DD",
+    "author": {
+        "name": "Ayoub Aberbach"
+    },
+    "description": "This is an app that can download youtube videos.",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": ".",
+    "id": "/",
+    "icons": [
+        {
+            "src": "./assets/yt-icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "orientation":"any",
+    "display_override": [
+        "window-controls-overlay",
+        "minimal-ui"
+    ],
+    "protocol_handlers": [
+        {
+            "protocol": "web+coffee",
+            "url": "/?type=%s"
+        }
+    ]
+}
